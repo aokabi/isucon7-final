@@ -2,7 +2,7 @@ GOPATH := /home/isucon/cco/webapp/go
 export GOPATH
 
 build:
-		go build -v app
+		/home/isucon/local/go/bin/go build -v app
 
 ensure:
 		cd src/app && /home/isucon/go/bin/dep ensure -vendor-only
