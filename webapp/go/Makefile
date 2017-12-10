@@ -5,7 +5,7 @@ build:
 		go build -v app
 
 ensure:
-		cd src/app && dep ensure -vendor-only
+		cd src/app && /home/isucon/go/bin/dep ensure -vendor-only
 
 update:
 		cd src/app && dep ensure
