@@ -1,4 +1,4 @@
-GOPATH := ${PWD}
+GOPATH := /home/isucon/cco/webapp/go
 export GOPATH
 
 build:
